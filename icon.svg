@@ -1,0 +1,13 @@
+export const BOOKING_URL =
+  "https://vistabarber.setmore.com/team/AO68Hzr9XYz7xVhfUK7bNHe0xmPsd6IV?rwg_token=AE37R_j1w98bjBatPiGRcBqyqdzDBpJ6OaOC87c8W2V-9qIpfD3QpKLSI6DooOoo_acdOSxEHE0-z5azM3qFGMJZfheufEdDxw%3D%3D"
+export const WHATSAPP_NUMBER = "+507 6485-8956"
+export const WHATSAPP_URL = "https://wa.me/50764858956"
+export const MAPS_URL = "https://maps.google.com/?q=PH+Twist+Piso+30+Panama"
+export const INSTAGRAM_URL = "https://instagram.com"
+
+export const NAV_LINKS = [
+  { key: "inicio", href: "#inicio" },
+  { key: "beneficios", href: "#beneficios" },
+  { key: "nosotros", href: "#nosotros" },
+  { key: "resenas", href: "#resenas" },
+] as const

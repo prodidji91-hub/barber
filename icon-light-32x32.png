@@ -1,0 +1,326 @@
+export type Lang = "ES" | "EN"
+
+export const translations = {
+  ES: {
+    nav: {
+      inicio: "INICIO",
+      beneficios: "BENEFICIOS",
+      nosotros: "NOSOTROS",
+      resenas: "RESEÑAS",
+      ubicacion: "UBICACIÓN",
+    },
+    common: {
+      book: "RESERVAR CITA",
+      whatsapp: "WHATSAPP",
+      langLabel: "Idioma",
+      openMenu: "Abrir menú",
+      closeMenu: "Cerrar menú",
+      whatsappAria: "Abrir chat de WhatsApp de Vista Barber Lounge",
+      skip: "Saltar al contenido",
+    },
+    hero: {
+      eyebrow: "PH TWIST · PISO 30 · CIUDAD DE PANAMÁ",
+      titleTop: "Grooming Premium.",
+      titleBottom: "Estilo Excepcional.",
+      body: "En el piso 30 con vista a toda la ciudad, cada corte es precisión, cada detalle es atención personal y cada visita es un descanso del ruido. Equipo moderno, manos expertas, ambiente que se siente privado.",
+      ratingStrong: "5.0 EN GOOGLE",
+      ratingSub: "CALIFICACIÓN PERFECTA",
+      location: "PH TWIST, PISO 30 H",
+      scroll: "DESLIZA PARA DESCUBRIR",
+      heroAlt:
+        "Interior de Vista Barber Lounge piso 30 con sillones de barbero y ventanales panorámicos de la ciudad de Panamá",
+    },
+    info: {
+      items: [
+        { label: "CALIFICACIÓN", title: "5.0 en Google", sub: "Reseñas verificadas" },
+        { label: "UBICACIÓN", title: "Piso 30 con vista skyline", sub: "PH Twist, Panamá" },
+        { label: "ESTILO", title: "Atención personalizada", sub: "Cita por cita" },
+      ],
+      contactLabel: "CONTACTO",
+      contactSub: "Chatea por WhatsApp",
+    },
+    benefits: {
+      eyebrow: "POR QUÉ VISTA",
+      title: "No es solo un corte. Es como quieres verte.",
+      body: "Diseñamos la experiencia para el hombre que cuida cada detalle. Aquí no hay prisa, solo trabajo bien hecho.",
+      count: "08 RAZONES",
+      reasons: [
+        {
+          title: "Experiencia Premium",
+          text: "Desde que entras, todo está pensado para que te sientas en un lounge privado. Música, aroma, atención.",
+        },
+        {
+          title: "Barberos Expertos",
+          text: "Manos con años de tijera, máquina y navaja. Dominan fades, texturas y estilos clásicos y modernos.",
+        },
+        {
+          title: "Ambiente de Lujo",
+          text: "Piso 30, ventanales de piso a techo y la ciudad de Panamá como fondo. Relajado, luminoso, exclusivo.",
+        },
+        {
+          title: "Servicio Personalizado",
+          text: "Escuchamos cómo usas el pelo, tu rutina y lo que quieres proyectar. El corte se adapta a ti, no al revés.",
+        },
+        {
+          title: "Cortes de Precisión",
+          text: "Degradados limpios, líneas definidas y acabado pulido que se mantiene por semanas.",
+        },
+        {
+          title: "Barba Profesional",
+          text: "Perfilado con navaja, toalla caliente y detalle milimétrico. Barba que se ve cuidada, no improvisada.",
+        },
+        {
+          title: "Reserva Rápida",
+          text: "Agenda en línea en menos de un minuto. Eliges hora, servicio y listo. Sin esperas.",
+        },
+        {
+          title: "Reseñas Excelentes",
+          text: "Clientes que regresan por la atención, la constancia y el resultado. 5.0 sostenido en Google.",
+        },
+      ],
+    },
+    lounge: {
+      eyebrow: "EL LOUNGE",
+      title: "Precisión a la altura de la ciudad.",
+      body1:
+        "Vista Barber Lounge nació para elevar la barbería en Panamá. Queríamos un espacio donde el oficio se respete: atención personalizada, precisión en cada pase y un ambiente donde realmente puedas relajarte.",
+      body2:
+        "Trabajamos con equipo moderno, productos de barbería profesional y técnicas que cuidan la piel y el cabello. Desde el fade hasta el perfilado de barba, cada detalle cuenta.",
+      points: [
+        "Atención uno a uno, sin prisa",
+        "Precisión y detalle en cada servicio",
+        "Ambiente relajado con vista panorámica",
+        "Equipos modernos y productos profesionales",
+        "Experiencia excepcional de principio a fin",
+      ],
+      addressTitle: "Piso 30 H · PH Twist, Piso 30 H, Panamá",
+      addressSub: "PH Twist, con vista directa al skyline. Lugar tranquilo, acceso fácil y parking cercano.",
+      imageAlt:
+        "Barbero realizando un degradado de precisión en Vista Barber Lounge con vista a la ciudad de Panamá",
+    },
+    numbers: {
+      eyebrow: "EN NÚMEROS",
+      title: "Resultados que se notan",
+      stats: [
+        { value: "5.0", label: "CALIFICACIÓN GOOGLE", sub: "Perfección sostenida" },
+        { value: "100%", label: "SATISFACCIÓN", sub: "Clientes que regresan" },
+        { value: "Pro", label: "EQUIPO PROFESIONAL", sub: "Especialistas dedicados" },
+        { value: "Piso 30", label: "EXPERIENCIA PREMIUM", sub: "Vista skyline exclusiva" },
+      ],
+    },
+    showcase: {
+      eyebrow: "EL ESPACIO",
+      title: "Barbería en las alturas",
+      body: "Ventanales de piso a techo, luz natural y la ciudad de Panamá como fondo mientras te atendemos.",
+      imageAlt:
+        "Interior de Vista Barber Lounge en el piso 30 con estaciones de barbero, sillones de cuero y ventanales panorámicos sobre el skyline de la ciudad de Panamá",
+    },
+    reviews: {
+      eyebrow: "LO QUE DICEN",
+      title: "Clientes que ya encontraron su barbería",
+      items: [
+        {
+          quote: "Excelente atención.",
+          initials: "OD",
+          name: "Omar De Gracia",
+          meta: "Reseña verificada en Google · 5 estrellas",
+        },
+        {
+          quote:
+            "Antonio me hizo un corte excelente y tratamiento facial. La barbería está limpia y tiene una vista increíble de la ciudad. Muy recomendado, volveré.",
+          initials: "MB",
+          name: "Matthew Bagnall",
+          meta: "Cliente internacional · 5 estrellas",
+        },
+        {
+          quote:
+            "Servicio excepcional, atención al detalle impecable. Anthony es un profesional de primera y la vista espectacular de la ciudad de Panamá hace de la visita toda una experiencia.",
+          initials: "OJ",
+          name: "Orlando Jayes Green",
+          meta: "Reseña verificada · 5 estrellas",
+        },
+      ],
+    },
+    cta: {
+      eyebrow: "TU PRÓXIMA VISITA",
+      title: "¿Listo para tu próximo look?",
+      body: "Reserva tu silla en el Piso 30. Elige servicio y horario en línea. Llegas, te sientas y sales listo.",
+      meta: "RESERVA EN LÍNEA · CONFIRMACIÓN INMEDIATA · WHATSAPP",
+    },
+    footer: {
+      tagline: "Grooming premium con vista al skyline de Panamá. Piso 30, PH Twist.",
+      rating: "5.0 en Google · Excelencia comprobada",
+      navTitle: "NAVEGACIÓN",
+      contactTitle: "CONTACTO",
+      addressTitle: "DIRECCIÓN",
+      bookLink: "Reservar Cita →",
+      locationLink: "Ubicación",
+      address: "PH Twist, Piso 30 H, Panamá, Provincia de Panamá, Panama",
+      directions: "CÓMO LLEGAR",
+      rights: "© {year} VISTA BARBER LOUNGE. TODOS LOS DERECHOS RESERVADOS.",
+      place: "PANAMÁ, PROVINCIA DE PANAMÁ · PH TWIST · PISO 30 H",
+    },
+  },
+
+  EN: {
+    nav: {
+      inicio: "HOME",
+      beneficios: "BENEFITS",
+      nosotros: "ABOUT",
+      resenas: "REVIEWS",
+      ubicacion: "LOCATION",
+    },
+    common: {
+      book: "BOOK APPOINTMENT",
+      whatsapp: "WHATSAPP",
+      langLabel: "Language",
+      openMenu: "Open menu",
+      closeMenu: "Close menu",
+      whatsappAria: "Open Vista Barber Lounge WhatsApp chat",
+      skip: "Skip to content",
+    },
+    hero: {
+      eyebrow: "PH TWIST · 30TH FLOOR · PANAMA CITY",
+      titleTop: "Premium Grooming.",
+      titleBottom: "Exceptional Style.",
+      body: "On the 30th floor overlooking the whole city, every cut is precision, every detail is personal attention and every visit is a break from the noise. Modern equipment, expert hands, an atmosphere that feels private.",
+      ratingStrong: "5.0 ON GOOGLE",
+      ratingSub: "PERFECT RATING",
+      location: "PH TWIST, 30TH FLOOR H",
+      scroll: "SCROLL TO DISCOVER",
+      heroAlt:
+        "Interior of Vista Barber Lounge on the 30th floor with barber chairs and panoramic windows over Panama City",
+    },
+    info: {
+      items: [
+        { label: "RATING", title: "5.0 on Google", sub: "Verified reviews" },
+        { label: "LOCATION", title: "30th floor skyline view", sub: "PH Twist, Panama" },
+        { label: "STYLE", title: "Personalized attention", sub: "Appointment by appointment" },
+      ],
+      contactLabel: "CONTACT",
+      contactSub: "Chat on WhatsApp",
+    },
+    benefits: {
+      eyebrow: "WHY VISTA",
+      title: "It's not just a haircut. It's how you want to look.",
+      body: "We designed the experience for the man who cares about every detail. No rush here, just work done right.",
+      count: "08 REASONS",
+      reasons: [
+        {
+          title: "Premium Experience",
+          text: "From the moment you walk in, everything is designed to make you feel in a private lounge. Music, scent, attention.",
+        },
+        {
+          title: "Expert Barbers",
+          text: "Hands with years of scissors, clippers and razor. They master fades, textures and both classic and modern styles.",
+        },
+        {
+          title: "Luxury Atmosphere",
+          text: "30th floor, floor-to-ceiling windows and Panama City as the backdrop. Relaxed, bright, exclusive.",
+        },
+        {
+          title: "Personalized Service",
+          text: "We listen to how you wear your hair, your routine and what you want to project. The cut adapts to you, not the other way around.",
+        },
+        {
+          title: "Precision Cuts",
+          text: "Clean fades, defined lines and a polished finish that holds up for weeks.",
+        },
+        {
+          title: "Professional Beard Work",
+          text: "Razor line-up, hot towel and millimeter detail. A beard that looks cared for, not improvised.",
+        },
+        {
+          title: "Fast Booking",
+          text: "Book online in under a minute. Pick your time, your service and you're done. No waiting.",
+        },
+        {
+          title: "Outstanding Reviews",
+          text: "Clients who come back for the attention, the consistency and the result. A steady 5.0 on Google.",
+        },
+      ],
+    },
+    lounge: {
+      eyebrow: "THE LOUNGE",
+      title: "Precision as high as the city.",
+      body1:
+        "Vista Barber Lounge was born to elevate barbering in Panama. We wanted a space where the craft is respected: personalized attention, precision in every pass and an atmosphere where you can truly relax.",
+      body2:
+        "We work with modern equipment, professional barbering products and techniques that care for your skin and hair. From the fade to the beard line-up, every detail counts.",
+      points: [
+        "One-on-one attention, no rush",
+        "Precision and detail in every service",
+        "Relaxed atmosphere with a panoramic view",
+        "Modern equipment and professional products",
+        "An exceptional experience from start to finish",
+      ],
+      addressTitle: "30th Floor H · PH Twist, 30th Floor H, Panama",
+      addressSub: "PH Twist, with a direct view of the skyline. Quiet spot, easy access and nearby parking.",
+      imageAlt: "Barber performing a precision fade at Vista Barber Lounge with a view over Panama City",
+    },
+    numbers: {
+      eyebrow: "BY THE NUMBERS",
+      title: "Results you can see",
+      stats: [
+        { value: "5.0", label: "GOOGLE RATING", sub: "Sustained perfection" },
+        { value: "100%", label: "SATISFACTION", sub: "Clients who return" },
+        { value: "Pro", label: "PROFESSIONAL TEAM", sub: "Dedicated specialists" },
+        { value: "30th Fl", label: "PREMIUM EXPERIENCE", sub: "Exclusive skyline view" },
+      ],
+    },
+    showcase: {
+      eyebrow: "THE SPACE",
+      title: "Barbering up in the sky",
+      body: "Floor-to-ceiling windows, natural light and Panama City as the backdrop while we take care of you.",
+      imageAlt:
+        "Interior of Vista Barber Lounge on the 30th floor with barber stations, leather couches and panoramic windows over the Panama City skyline",
+    },
+    reviews: {
+      eyebrow: "WHAT THEY SAY",
+      title: "Clients who already found their barbershop",
+      items: [
+        {
+          quote: "Excellent service.",
+          initials: "OD",
+          name: "Omar De Gracia",
+          meta: "Verified Google review · 5 stars",
+        },
+        {
+          quote:
+            "Antonio gave me an excellent cut and a facial treatment. The barbershop is clean and has an incredible view of the city. Highly recommended, I'll be back.",
+          initials: "MB",
+          name: "Matthew Bagnall",
+          meta: "International client · 5 stars",
+        },
+        {
+          quote:
+            "Exceptional service, impeccable attention to detail. Anthony is a top-tier professional and the spectacular view of Panama City makes the visit a full experience.",
+          initials: "OJ",
+          name: "Orlando Jayes Green",
+          meta: "Verified review · 5 stars",
+        },
+      ],
+    },
+    cta: {
+      eyebrow: "YOUR NEXT VISIT",
+      title: "Ready for your next look?",
+      body: "Book your chair on the 30th floor. Choose your service and time online. You arrive, sit down and leave ready.",
+      meta: "BOOK ONLINE · INSTANT CONFIRMATION · WHATSAPP",
+    },
+    footer: {
+      tagline: "Premium grooming with a view of the Panama skyline. 30th floor, PH Twist.",
+      rating: "5.0 on Google · Proven excellence",
+      navTitle: "NAVIGATION",
+      contactTitle: "CONTACT",
+      addressTitle: "ADDRESS",
+      bookLink: "Book Appointment →",
+      locationLink: "Location",
+      address: "PH Twist, 30th Floor H, Panama, Panama Province, Panama",
+      directions: "GET DIRECTIONS",
+      rights: "© {year} VISTA BARBER LOUNGE. ALL RIGHTS RESERVED.",
+      place: "PANAMA, PANAMA PROVINCE · PH TWIST · 30TH FLOOR H",
+    },
+  },
+} as const
+
+export type Dict = (typeof translations)["ES"]
